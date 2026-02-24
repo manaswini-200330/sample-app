@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: java-app
-        image: asia-south1-docker.pkg.dev/internal-sandbox-446612/java-repo:latest
+        image: asia-south1-docker.pkg.dev/internal-sandbox-446612/java-repo/java-app:latest
         ports:
         - containerPort: 8123
